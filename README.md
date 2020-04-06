@@ -43,7 +43,6 @@ ___
 ### References
 https://arxiv.org/pdf/1807.07543.pdf
 
-
 ### Files description
 
     1) evaluation.py - fit a FC on top of trained latent representations
@@ -59,6 +58,19 @@ ___
 ![Alt Text](assets/ex1.gif)
 ### References
 https://arxiv.org/pdf/1901.08479.pdf
+
+The main goal of the proposed framework is to transform vectors in the latent space. Reducing distances between vectors in without changing their topological properties should lead to more relevant interpolation between output vectors.
+
+### Files description
+    1) check_2d_minmax.ipynb - get pictures of latent representation for LTAE-M
+    2) check_2d_standard.ipynb - get pictures of latent representation for LTAE-S
+    3) check_ae.py - functions for performance measurenment of learned LTAE 
+    4) compute_hausdorff.py - calculate Hausdorff distance of the model
+    5) eval_ltae_features.ipynb - check trained LTAE
+    6) model.py - implemented achitectures
+    7) tests.ipynb - basic experiments 
+    8) train.py - train a model 
+    9) utils.py - useful funcs for reconstruction, interpolatin etc.
 
 ___
 ## Augmentation procedure
