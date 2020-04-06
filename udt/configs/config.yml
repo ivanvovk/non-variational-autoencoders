@@ -1,0 +1,16 @@
+bs: 32
+crop: 178
+data_path: glasses_train/
+device: cuda:0
+disclr: 0.0002
+discweight: 0.001
+display_iter: 5000
+iters: 1250000
+load: ''
+lr: 0.0002
+num_display: 12
+out: out_test_3
+progress_iter: 100
+resize: 128
+save_iter: 10000
+sep: 25
