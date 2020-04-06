@@ -2,6 +2,7 @@
 
 Authors: Grigorii Sotnikov, Vladimir Gogoryan, Dmitry Smorchkov, Ivan Vovk
 
+___
 ## Unsupervised Domain Translation
 ![Alt Text](assets/CelebA_glasses.png)
 ![Alt Text](assets/CelebA_with_glasses.png)
@@ -35,7 +36,7 @@ and proceed to visualization.ipynb where beautiful visualizations can be plotted
     4) preprocess.py - given folder img_align_celeba produces separate dataset partitioning
     5) visualization.ipynb - a notebook where you can plot beautiful interpolations between samples in different settings. Source of visualization for the project.
 
-
+___
 ## Adversarially Constrained Autoencoder Interpolation
 ![Alt Text](assets/horses.png)
 ![Alt Text](assets/digits.png)
@@ -53,12 +54,12 @@ https://arxiv.org/pdf/1807.07543.pdf
     6) visualization.ipynb - obtain interpolations for report and score models via FC layer
     7) acai_train.ipynb - train baseline AE and ACAI from configs
 
-
+___
 ## On the Transformation of Latent Space in Autoencoders
 ![Alt Text](assets/ex1.gif)
 ### References
 https://arxiv.org/pdf/1901.08479.pdf
 
-
-### Augmentation procedure
+___
+## Augmentation procedure
 ![Alt Text](assets/augmentation.jpg)
