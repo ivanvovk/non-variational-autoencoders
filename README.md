@@ -56,6 +56,7 @@ https://arxiv.org/pdf/1807.07543.pdf
 ___
 ## On the Transformation of Latent Space in Autoencoders
 ![Alt Text](assets/ex1.gif)
+![Alt Text](ltae/pics/latent_space/min-max.png)
 ### References
 https://arxiv.org/pdf/1901.08479.pdf
 
